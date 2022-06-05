@@ -8,7 +8,7 @@
  
 * Phone: +375293238744
 * Discord: _gvinbleiddd#3575
-* Email: bryl.step@tut.by
+* Email: raman.akulich@gmail.com
 * Telegram: @Valerievich
  
 ## About Me
