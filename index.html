@@ -1,9 +1,162 @@
 <!DOCTYPE html>
-<html lang="ru">
- <head>
-   <title>!DOCTYPE</title>
-   <meta charset="utf-8">
- </head>
- <body>
- </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+<title>CV</title>
+</head>
+<body>
+    <div id="drag" class="cv instaFade wrap">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+ 
+          <div id="headshot" class="">
+            <img src="https://avatars.githubusercontent.com/u/106805843?v=4" title="Hi, I'm Raman!" alt="Raman Akulich" />
+          </div>
+    
+          <div id="name">
+            <h1 class="quickFade delayTwo">Raman Akulich</h1>
+            <h4 class="quickFade delayThree" id="skills">JS, HTML, CSS, QA</h4>
+             <h4 class="quickFade delayThree">Junior Developer</h4>
+          </div>
+         <div class="clear"></div>
+        </header>
+    
+        <main class="main">
+          
+          <section>
+            
+              <div class="sectionTitle">
+                <h2>Contact Details</h2>
+              </div>
+    
+              <div class="sectionContent" id="contacts">
+                <ul>
+                    <li>Phone: +375293238744</li>
+                    <li> Discord: _gvinbleiddd#3575</li>
+                    <li>Email: raman.akulich@gmail.com</li>
+                </ul>
+              </div>
+            
+            <div class="clear"></div>
+          </section>  
+          <section>
+            <div class="sectionTitle">
+              <h2>Education</h2>
+            </div>
+    
+            <div class="sectionContent" id="education">
+                
+                <h3>Belarusian National Technical University </h3>
+                <p>Stormnet IT Academy - April - May 2016</p>
+                <p>RS Schools Course (JavaScript/Front-end. Stage 0) - in progress</p>
+              
+    
+              <article>
+                
+                <h3>Self-education</h3>
+                <p id="projects"><a href="https://github.com/RamanAkulich">Github</a></p>
+              </article>
+              
+               <article>
+                <h2>RSSchool</h2>
+                <p class="subDetails"> June</p>
+                <p><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md">RSSchool Course</a></p>
+              </article>
+                            
+               <article>
+                <h2>Languages</h2>
+                 <h3>A2</h3>
+                <p class="subDetails">2009-2014</p>
+                <p></p>
+              </article>
+            </div>
+            <div class="clear"></div>
+          </section>
+    
+    
+          <section>
+            <div class="sectionTitle">
+              <h2>My skills</h2>
+            </div>
+    
+            <div class="sectionContent">
+              <ul class="keySkills">
+                <li>JavaScript</li>
+                <li>HTML5, CSS3</li>
+                <li>Git, Github</li>
+                <li>VSCode</li>
+                <li>QA</li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </section>
+    
+    
+          <section id="Education">
+            <div class="sectionTitle">
+              <h2>Code Example</h2>
+            </div>
+    
+            <div class="sectionContent">
+              <article>
+                <h2>How to create a function that sums two numbers?</h2>
+                <code id="code">function sum (a,b){<br>
+               return a+b; } <br>
+               console.log(sum(4, 5));<br>
+              </code>
+              </article>
+    
+            </div>
+            <div class="clear"></div>
+          </section>
+    
+          
+          <section>
+            
+              <div class="sectionTitle" id="summary">
+                <h2>About Me</h2>
+              </div>
+    
+              <div class="sectionContent">
+                <p> My goal is to find myself in programming. I love cars, advanced technology, games and fishing.</p> 
+              </div>
+            
+            <div class="clear"></div>
+            
+          </section>
+           
+        </main>
+           <footer class="footer">
+              <div class="nameGit">
+              <a href="https://github.com/RamanAkulich"> <img src="https://www.thesoftwarereport.com/wp-content/uploads/2018/06/github-collab-retina-preview.gif" alt="GitHub"></a>
+              </div>
+              <div class="footer-year">
+                <h4>2022</h4>
+              </div>
+              <div class = "footer-Rsscool">
+                <a href="https://app.rs.school"><img  src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+              </div>
+              <div>
+             <div class="clear"></div>
+             </div>
+            </footer>
+      </div>
+</body>
 </html>
